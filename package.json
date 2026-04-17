@@ -1,0 +1,26 @@
+{
+  "name": "make-ai-model-manager",
+  "version": "1.0.0",
+  "description": "Local web app to scan and bulk-update AI model versions (Claude, Gemini) across all your Make.com scenarios.",
+  "main": "make-ai-model-manager.js",
+  "bin": {
+    "make-ai-model-manager": "make-ai-model-manager.js"
+  },
+  "scripts": {
+    "start": "node make-ai-model-manager.js"
+  },
+  "keywords": [
+    "make.com",
+    "integromat",
+    "ai",
+    "claude",
+    "gemini",
+    "anthropic",
+    "automation"
+  ],
+  "author": "Ariel Moatti",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
