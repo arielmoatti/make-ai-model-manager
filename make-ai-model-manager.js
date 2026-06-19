@@ -645,7 +645,7 @@ function scenarioLink(name, id) {
 }
 
 const PRESETS = [
-  { label: 'All Opus -> 4.7', from: ['^claude-opus'], to: 'claude-opus-4-7', toLabel: 'Claude Opus 4.7' },
+  { label: 'All Opus -> 4.8', from: ['^claude-opus'], to: 'claude-opus-4-8', toLabel: 'Claude Opus 4.8' },
   { label: 'All Sonnet -> 4.6', from: ['^claude-sonnet', '^claude-3-5-sonnet'], to: 'claude-sonnet-4-6', toLabel: 'Claude Sonnet 4.6' },
   { label: 'All Haiku -> 4.5', from: ['^claude-haiku', '^claude-3-haiku', '^claude-3-5-haiku'], to: 'claude-haiku-4-5-20251001', toLabel: 'Claude Haiku 4.5' },
   { label: 'All Gemini Pro -> latest', from: ['^gemini-([0-9.]+-)?pro(?!-image)'], to: 'gemini-pro-latest', toLabel: 'Gemini Pro Latest' },
